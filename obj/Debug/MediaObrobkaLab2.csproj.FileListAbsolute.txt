@@ -1,0 +1,60 @@
+C:\Users\Макс\source\repos\MediaObrobkaLab2\MediaObrobkaLab2\bin\Debug\MediaObrobkaLab2.exe.config
+C:\Users\Макс\source\repos\MediaObrobkaLab2\MediaObrobkaLab2\bin\Debug\MediaObrobkaLab2.exe
+C:\Users\Макс\source\repos\MediaObrobkaLab2\MediaObrobkaLab2\bin\Debug\MediaObrobkaLab2.pdb
+C:\Users\Макс\source\repos\MediaObrobkaLab2\MediaObrobkaLab2\obj\Debug\MediaObrobkaLab2.csprojResolveAssemblyReference.cache
+C:\Users\Макс\source\repos\MediaObrobkaLab2\MediaObrobkaLab2\obj\Debug\MainWindow.g.cs
+C:\Users\Макс\source\repos\MediaObrobkaLab2\MediaObrobkaLab2\obj\Debug\App.g.cs
+C:\Users\Макс\source\repos\MediaObrobkaLab2\MediaObrobkaLab2\obj\Debug\MediaObrobkaLab2_MarkupCompile.cache
+C:\Users\Макс\source\repos\MediaObrobkaLab2\MediaObrobkaLab2\obj\Debug\MediaObrobkaLab2_MarkupCompile.lref
+C:\Users\Макс\source\repos\MediaObrobkaLab2\MediaObrobkaLab2\obj\Debug\MainWindow.baml
+C:\Users\Макс\source\repos\MediaObrobkaLab2\MediaObrobkaLab2\obj\Debug\MediaObrobkaLab2.g.resources
+C:\Users\Макс\source\repos\MediaObrobkaLab2\MediaObrobkaLab2\obj\Debug\MediaObrobkaLab2.Properties.Resources.resources
+C:\Users\Макс\source\repos\MediaObrobkaLab2\MediaObrobkaLab2\obj\Debug\MediaObrobkaLab2.csproj.GenerateResource.cache
+C:\Users\Макс\source\repos\MediaObrobkaLab2\MediaObrobkaLab2\obj\Debug\MediaObrobkaLab2.csproj.CoreCompileInputs.cache
+C:\Users\Макс\source\repos\MediaObrobkaLab2\MediaObrobkaLab2\obj\Debug\MediaObrobkaLab2.exe
+C:\Users\Макс\source\repos\MediaObrobkaLab2\MediaObrobkaLab2\obj\Debug\MediaObrobkaLab2.pdb
+C:\Users\Макс\Desktop\MediaObrobkaLab2\MediaObrobkaLab2\bin\Debug\MediaObrobkaLab2.exe.config
+C:\Users\Макс\Desktop\MediaObrobkaLab2\MediaObrobkaLab2\bin\Debug\MediaObrobkaLab2.exe
+C:\Users\Макс\Desktop\MediaObrobkaLab2\MediaObrobkaLab2\bin\Debug\MediaObrobkaLab2.pdb
+C:\Users\Макс\Desktop\MediaObrobkaLab2\MediaObrobkaLab2\obj\Debug\MediaObrobkaLab2.csprojResolveAssemblyReference.cache
+C:\Users\Макс\Desktop\MediaObrobkaLab2\MediaObrobkaLab2\obj\Debug\MainWindow.g.cs
+C:\Users\Макс\Desktop\MediaObrobkaLab2\MediaObrobkaLab2\obj\Debug\App.g.cs
+C:\Users\Макс\Desktop\MediaObrobkaLab2\MediaObrobkaLab2\obj\Debug\MediaObrobkaLab2_MarkupCompile.cache
+C:\Users\Макс\Desktop\MediaObrobkaLab2\MediaObrobkaLab2\obj\Debug\MediaObrobkaLab2_MarkupCompile.lref
+C:\Users\Макс\Desktop\MediaObrobkaLab2\MediaObrobkaLab2\obj\Debug\MainWindow.baml
+C:\Users\Макс\Desktop\MediaObrobkaLab2\MediaObrobkaLab2\obj\Debug\MediaObrobkaLab2.g.resources
+C:\Users\Макс\Desktop\MediaObrobkaLab2\MediaObrobkaLab2\obj\Debug\MediaObrobkaLab2.Properties.Resources.resources
+C:\Users\Макс\Desktop\MediaObrobkaLab2\MediaObrobkaLab2\obj\Debug\MediaObrobkaLab2.csproj.GenerateResource.cache
+C:\Users\Макс\Desktop\MediaObrobkaLab2\MediaObrobkaLab2\obj\Debug\MediaObrobkaLab2.csproj.CoreCompileInputs.cache
+C:\Users\Макс\Desktop\MediaObrobkaLab2\MediaObrobkaLab2\obj\Debug\MediaObrobkaLab2.exe
+C:\Users\Макс\Desktop\MediaObrobkaLab2\MediaObrobkaLab2\obj\Debug\MediaObrobkaLab2.pdb
+C:\Users\user\Downloads\MediaObrobkaLab2 (1)\MediaObrobkaLab2\MediaObrobkaLab2\bin\Debug\MediaObrobkaLab2.exe.config
+C:\Users\user\Downloads\MediaObrobkaLab2 (1)\MediaObrobkaLab2\MediaObrobkaLab2\bin\Debug\MediaObrobkaLab2.exe
+C:\Users\user\Downloads\MediaObrobkaLab2 (1)\MediaObrobkaLab2\MediaObrobkaLab2\bin\Debug\MediaObrobkaLab2.pdb
+C:\Users\user\Downloads\MediaObrobkaLab2 (1)\MediaObrobkaLab2\MediaObrobkaLab2\obj\Debug\MediaObrobkaLab2.csprojAssemblyReference.cache
+C:\Users\user\Downloads\MediaObrobkaLab2 (1)\MediaObrobkaLab2\MediaObrobkaLab2\obj\Debug\MainWindow.g.cs
+C:\Users\user\Downloads\MediaObrobkaLab2 (1)\MediaObrobkaLab2\MediaObrobkaLab2\obj\Debug\App.g.cs
+C:\Users\user\Downloads\MediaObrobkaLab2 (1)\MediaObrobkaLab2\MediaObrobkaLab2\obj\Debug\MediaObrobkaLab2_MarkupCompile.cache
+C:\Users\user\Downloads\MediaObrobkaLab2 (1)\MediaObrobkaLab2\MediaObrobkaLab2\obj\Debug\MediaObrobkaLab2_MarkupCompile.lref
+C:\Users\user\Downloads\MediaObrobkaLab2 (1)\MediaObrobkaLab2\MediaObrobkaLab2\obj\Debug\MainWindow.baml
+C:\Users\user\Downloads\MediaObrobkaLab2 (1)\MediaObrobkaLab2\MediaObrobkaLab2\obj\Debug\MediaObrobkaLab2.g.resources
+C:\Users\user\Downloads\MediaObrobkaLab2 (1)\MediaObrobkaLab2\MediaObrobkaLab2\obj\Debug\MediaObrobkaLab2.Properties.Resources.resources
+C:\Users\user\Downloads\MediaObrobkaLab2 (1)\MediaObrobkaLab2\MediaObrobkaLab2\obj\Debug\MediaObrobkaLab2.csproj.GenerateResource.cache
+C:\Users\user\Downloads\MediaObrobkaLab2 (1)\MediaObrobkaLab2\MediaObrobkaLab2\obj\Debug\MediaObrobkaLab2.csproj.CoreCompileInputs.cache
+C:\Users\user\Downloads\MediaObrobkaLab2 (1)\MediaObrobkaLab2\MediaObrobkaLab2\obj\Debug\MediaObrobkaLab2.exe
+C:\Users\user\Downloads\MediaObrobkaLab2 (1)\MediaObrobkaLab2\MediaObrobkaLab2\obj\Debug\MediaObrobkaLab2.pdb
+C:\Users\user\Downloads\MediaObrobkaLab2\MediaObrobkaLab2\MediaObrobkaLab2\bin\Debug\MediaObrobkaLab2.exe.config
+C:\Users\user\Downloads\MediaObrobkaLab2\MediaObrobkaLab2\MediaObrobkaLab2\bin\Debug\MediaObrobkaLab2.exe
+C:\Users\user\Downloads\MediaObrobkaLab2\MediaObrobkaLab2\MediaObrobkaLab2\bin\Debug\MediaObrobkaLab2.pdb
+C:\Users\user\Downloads\MediaObrobkaLab2\MediaObrobkaLab2\MediaObrobkaLab2\obj\Debug\MediaObrobkaLab2.csprojAssemblyReference.cache
+C:\Users\user\Downloads\MediaObrobkaLab2\MediaObrobkaLab2\MediaObrobkaLab2\obj\Debug\MainWindow.g.cs
+C:\Users\user\Downloads\MediaObrobkaLab2\MediaObrobkaLab2\MediaObrobkaLab2\obj\Debug\App.g.cs
+C:\Users\user\Downloads\MediaObrobkaLab2\MediaObrobkaLab2\MediaObrobkaLab2\obj\Debug\MediaObrobkaLab2_MarkupCompile.cache
+C:\Users\user\Downloads\MediaObrobkaLab2\MediaObrobkaLab2\MediaObrobkaLab2\obj\Debug\MediaObrobkaLab2_MarkupCompile.lref
+C:\Users\user\Downloads\MediaObrobkaLab2\MediaObrobkaLab2\MediaObrobkaLab2\obj\Debug\MainWindow.baml
+C:\Users\user\Downloads\MediaObrobkaLab2\MediaObrobkaLab2\MediaObrobkaLab2\obj\Debug\MediaObrobkaLab2.g.resources
+C:\Users\user\Downloads\MediaObrobkaLab2\MediaObrobkaLab2\MediaObrobkaLab2\obj\Debug\MediaObrobkaLab2.Properties.Resources.resources
+C:\Users\user\Downloads\MediaObrobkaLab2\MediaObrobkaLab2\MediaObrobkaLab2\obj\Debug\MediaObrobkaLab2.csproj.GenerateResource.cache
+C:\Users\user\Downloads\MediaObrobkaLab2\MediaObrobkaLab2\MediaObrobkaLab2\obj\Debug\MediaObrobkaLab2.csproj.CoreCompileInputs.cache
+C:\Users\user\Downloads\MediaObrobkaLab2\MediaObrobkaLab2\MediaObrobkaLab2\obj\Debug\MediaObrobkaLab2.exe
+C:\Users\user\Downloads\MediaObrobkaLab2\MediaObrobkaLab2\MediaObrobkaLab2\obj\Debug\MediaObrobkaLab2.pdb

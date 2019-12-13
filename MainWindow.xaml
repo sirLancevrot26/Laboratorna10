@@ -1,0 +1,192 @@
+﻿<Window x:Class="OMultMediaLab1.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:OMultMediaLab1"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="600" Width="900" MinHeight="600" MinWidth="900">
+    <Grid>
+
+        <Grid.RowDefinitions>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+            <RowDefinition/>
+        </Grid.RowDefinitions>
+
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition/>
+            <ColumnDefinition/>
+        </Grid.ColumnDefinitions>
+
+        <Grid>
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button Margin="3" Cursor="Hand" Content="Вибрати картинку" FontSize="15" Click="ChoseImageBTN" />
+        </Grid>
+
+        <MediaElement x:Name="ME" Grid.Column="1" Grid.RowSpan="6" Margin="5"/>
+
+        <Label x:Name="LBLSizeImage" HorizontalContentAlignment="Center" Grid.Row="6" Grid.Column="1" VerticalContentAlignment="Center" FontSize="15"/>
+
+        <ProgressBar x:Name="PGBAlgorithms" Width="250" Grid.Column="1" Grid.Row="6" Visibility="Hidden" Value="0" Maximum="100"/>
+
+        <TextBlock Text="0%" Grid.Row="6" Width="250" Visibility="Hidden" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" TextAlignment="Center" x:Name="TBLProgressAlg"/>
+
+        <Label x:Name="LBLColorDepth" Grid.Column="1" Grid.Row="7" FontSize="15"/>
+
+        <MediaElement x:Name="MERes" Margin="5" Grid.Column="1" Grid.Row="7" Grid.RowSpan="6"/>
+
+        <Button x:Name="BTNCountColors" Cursor="Hand" Margin="3" Visibility="Hidden" Content="Порахувати кількість унікальних кольорів" FontSize="15" Grid.Row="1" Click="BTNAmountColors"/>
+
+        <Grid Grid.Row="2" x:Name="GRDAmountColors" Visibility="Hidden">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Label Content="Кількість унікальних кольорів:" FontSize="15" Grid.Row="2" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+            <ProgressBar x:Name="PGBAmountColors" Value="0" Maximum="100" Minimum="0" Grid.Column="1" Margin="3"/>
+            <TextBlock Text="0%" Grid.Column="1" VerticalAlignment="Center" HorizontalAlignment="Center" x:Name="TBLProgress"/>
+            <Label x:Name="LBLResAmountColors" FontSize="15" FontWeight="Bold" Grid.Column="1" Visibility="Hidden" VerticalContentAlignment="Center"/>
+        </Grid>
+        <Button x:Name="BTNAlgRivnKvant" Visibility="Hidden" Grid.Row="3" Cursor="Hand" Margin="3" Content="Застосувати алгоритм рівномірного квантування" FontSize="15" Click="BTNRivnKvant"/>
+
+        <Grid x:Name="GRDSElectBitKvant" Visibility="Hidden" Grid.Row="4">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Label Content="К-сть відтінків для квантування:" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+
+            <ComboBox Cursor="Hand" VerticalContentAlignment="Center" FontSize="15" FontWeight="Bold" Grid.Column="1" x:Name="CBXSelectedBit" Margin="5">
+                
+            </ComboBox>
+        </Grid>
+
+        <Button x:Name="BTNAlgMedianIntersection" Visibility="Hidden" Grid.Row="5" Cursor="Hand" Margin="3" Content="Застосувати алгоритм медіанного перетину" FontSize="15" Click="BTNAlgMedianIntersection_Click"/>
+
+        <Grid x:Name="GRDSelectMedianInter" Visibility="Hidden" Grid.Row="6">
+
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Label Content="К-сть кольорів:" FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+
+            <ComboBox Cursor="Hand" VerticalContentAlignment="Center" FontSize="15" FontWeight="Bold" Grid.Column="1" x:Name="CBXSelectedMedianInter" Margin="5">
+                <ComboBoxItem Cursor="Hand" Content="2"/>
+                <ComboBoxItem Cursor="Hand" Content="8"/>
+                <ComboBoxItem Cursor="Hand" Content="16"/>
+                <ComboBoxItem Cursor="Hand" Content="32"/>
+                <ComboBoxItem Cursor="Hand" Content="64"/>
+                <ComboBoxItem Cursor="Hand" Content="128"/>
+            </ComboBox>
+        </Grid>
+
+        <Grid x:Name="GRDBin" Grid.Row="7" Visibility="Hidden">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Button x:Name="BTNWhiteNoiseAlg" Cursor="Hand" Margin="3" FontSize="15" Content="Білий шум" Click="BTNWhiteNoise"/>
+        </Grid>
+
+        <Grid x:Name="GRDBinPorogi" Grid.Row="8" Visibility="Hidden">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Label Content="Верхній та нижній пороги бін." FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Center" ToolTip="Верхній та нижній пороги бінаризації за порогами"/>
+
+            <Grid Grid.Column="1">
+
+                <Grid.ColumnDefinitions>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                    <ColumnDefinition/>
+                </Grid.ColumnDefinitions>
+
+                <Label Content="Нижн." FontSize="15" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+                <ComboBox Cursor="Hand" VerticalContentAlignment="Center" FontSize="15" FontWeight="Bold" Grid.Column="1" x:Name="CBXSelectedBinPorigMin" Margin="1">
+
+                </ComboBox>
+
+                <Label Content="Верх." FontSize="15" Grid.Column="2" VerticalContentAlignment="Center" HorizontalContentAlignment="Center"/>
+                <ComboBox Cursor="Hand" VerticalContentAlignment="Center" FontSize="15" FontWeight="Bold" Grid.Column="3" x:Name="CBXSelectedBinPorigMax" Margin="1">
+
+                </ComboBox>
+
+            </Grid>
+
+        </Grid>
+
+        <Button x:Name="BTNBinPorogi" Visibility="Hidden" Cursor="Hand" Grid.Row="9" Margin="3" Content="Застосувати алгоритм бінаризації за порогами" FontSize="15" Click="BTNBinPorogi_Click"/>
+
+        <Grid Grid.Row="10" x:Name="GRDFloydSteynberg" Visibility="Hidden">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+            <Button Margin="3" Content="Алгоритм Флойда-Стейнберга" FontSize="15" Cursor="Hand" Click="BTNFloydSteynberg"/>
+        </Grid>
+
+        <Grid Grid.Row="11" x:Name="GRDGauss" Visibility="Hidden">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <ComboBox x:Name="CBXFilterGauss" FontWeight="Bold" Margin="3" FontSize="15" VerticalContentAlignment="Center" Cursor="Hand" HorizontalContentAlignment="Center">
+                <ComboBoxItem Cursor="Hand" Content="3"/>
+                <ComboBoxItem Cursor="Hand" Content="5"/>
+                <ComboBoxItem Cursor="Hand" Content="7"/>
+            </ComboBox>
+
+            <Button Grid.Column="1" Margin="3" Content="Фільтр Гаусса" FontSize="15" Click="Button_ClickGauss"/>
+
+        </Grid>
+
+        <Grid Grid.Row="12" x:Name="GRDSobel">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Button Margin="3" Cursor="Hand" Content="Фільтр Собеля" FontSize="15" Click="BTNSobelya"/>
+
+            <Button Margin="3" Grid.Column="1" Cursor="Hand" Content="Фільтр Прюіта" FontSize="15" Click="BTNPruit"/>
+
+        </Grid>
+
+
+        <Grid Grid.Row="13" x:Name="GRDLaplas">
+            <Grid.ColumnDefinitions>
+                <ColumnDefinition/>
+                <ColumnDefinition/>
+            </Grid.ColumnDefinitions>
+
+            <Button Margin="3" Cursor="Hand" Content="Фільтр Лапласа" FontSize="15" Click="BTNLaplasa" />
+
+        </Grid>
+
+    </Grid>
+</Window>
